@@ -1,0 +1,847 @@
+
+
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .dashboard-design-image-reverse{
+        flex-wrap: wrap-reverse;
+
+    }
+    .down-padding{
+        margin-bottom: 40px;
+    }
+.store-pioletai .left-cont .abstract-img {
+  display: none;
+}  
+.store-pioletai-img img {
+    display: none;
+}
+.banner-main .banner-content .banner-element{
+display: none;
+}
+.store-pioletai .left-cont h1 {
+    font-size: 2rem;
+}
+.store-pioletai .left-cont p {
+    font-size: 1.2rem;
+}
+.store-pioletai .right-image img:first-child {
+  display: none;
+}
+.store-pioletai .right-image img {
+    width: 100%;
+}
+
+/* .top-header-cont {
+        display: contents;
+    } */
+
+    .banner-content .main-cont h1 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+.banner-content .main-cont {
+    margin-top: 0;
+    padding: 0;
+}
+.top-header-cont .email{
+    display: none;
+     
+}
+.top-header-cont {
+    justify-content: unset;
+    padding: 0;
+    gap: 15px;
+}
+.top-header-cont img{
+width: 130px;     
+}
+.banner-image .box-icon {
+    position: absolute;
+    width: 100px;
+}
+
+.passion-sec-main .top {
+    width: 100%;
+}
+.main-cont .banner-element-2 {
+    margin-top: unset;
+    width: 50%;
+}
+.passion-hobby-cont {
+    display: none;
+}
+.card-content-aboutmain {
+    display: none;
+}
+.pt-80{
+    padding-top: 40px;
+}
+.pb-80{
+    padding-bottom: 40px;
+}
+.passion-right-cont .about h1 {
+    font-size: 32px;
+ 
+}
+
+.company-name {
+    font-size: 1.6rem;
+ 
+}
+.item-date {
+    font-size: 1rem;
+ 
+}
+.experience-item {
+    display: flow;
+    gap: 18px;
+}
+.experience-section .experience-item .item-content .description {
+    text-align: justify;
+
+}
+.skills-section .skill-tool-cont h2 {
+    text-align: left;
+    font-size: 2.5rem;
+
+ 
+}
+.skill-card {
+border: 1px solid #C9F31D;
+padding: 16px;
+}
+.what-do-section .content h1 {
+    font-size: 3.5rem;
+}
+.what-we-do-br {
+    display: none;
+}
+.what-do-section .content h5 {
+    font-size: 17px;
+}
+.scroll-section .step-number {
+    font-size: 1.5rem;
+}
+.scroll-section .service-item {
+    gap: 10px;
+}
+.scroll-section .title {
+    font-size: 2rem;
+}
+.marquee-item {
+    gap: 25px;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+.marquee-item span:first-child {
+    font-size: 32px;
+}
+.marquee-item .star {
+    font-size: 80px;
+}
+.marquee-section {
+    padding: 20px 0;
+}
+.projects-section h2{
+    font-size: 2rem !important;
+
+}
+.projects-section p {
+    font-size: 0.80rem !important;
+}
+
+
+.project-card .card-overlay {
+    position: unset;
+
+    border-radius: 0;
+}
+.secoundgrid {
+    margin-top: 0px;
+}
+.social-project-section{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+.poster-label {
+    font-size: 1.5rem;
+}
+.navigation-wrapper {
+    margin-left: 0;
+}
+.navigation-wrapper .gap-2{
+    justify-content: center;
+}
+.main-heading {
+    font-size: 2rem;
+}
+.pb-40{
+    padding-bottom: 20px;
+}
+.pt-40{
+    padding-top: 20px;
+}
+.sub-heading {
+    font-size: 1rem;
+}
+.mockup-container {
+   
+    margin-left: 0px;
+}
+.liquid-bg-graphic {
+    display: none;
+}
+.description-text {
+    font-size: 1rem;
+    text-align: justify;
+ 
+
+}
+.mockup-mid {
+  display: none;
+}
+.mockup-flat {
+ display: none;
+}
+.mockup-main {
+    left: 0;
+    top: 0;
+    transform: unset;
+    z-index: 3;
+    width: 400px;
+}
+.liquid-bg-left {
+    display: none;
+}
+.watermark-image {
+    position: absolute;
+    top: 0;
+    right: 18%;
+}
+.barber-app-section .watermark-image img{
+    width: 100%;
+
+}
+.section-title {
+    font-size: 2rem;
+}
+
+.barber-app-section  .section-title{
+    justify-content: center;
+}
+.footer-section .contact-card .social-item .social-link{
+    font-size: 0.70rem;
+
+}
+.footer-section .contact-card .direct-contact a{
+    font-size: 0.70rem;
+
+}
+.quote-wrapper .quote-text {
+    font-size: 22px;
+    color: #e0e0e0;
+    line-height: 1.4;
+}
+.quote-wrapper .quote-heading {
+    font-size: 1.60rem;
+}
+.designer-img-wrapper .designer-img {
+    max-width: unset;
+}
+}
+
+
+
+
+/* 575 -> 767 */
+@media screen and (min-width: 575px) and (max-width: 768px) {
+     .down-padding{
+        margin-bottom: 40px;
+    }
+    .dashboard-design-image-reverse{
+        flex-wrap: wrap-reverse;
+        
+    }
+.store-pioletai .left-cont .abstract-img {
+  display: none;
+}
+    .store-pioletai-img img {
+    display: none;
+}
+    .social-project-section {
+    min-height: unset;
+ 
+}
+
+    .scroll-section .service-item {
+    min-height: 250px;
+    gap: 20px;
+padding: 0 10%;
+}
+  
+.banner-content .banner-element {
+    right: 0;
+    top: 0%;
+    width: 45%;
+}
+   
+    /* .top-header-cont {
+        display: contents;
+    } */
+
+    .banner-content .main-cont h1 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+.banner-content .main-cont {
+    margin-top: 0;
+    padding: 0;
+}
+.top-header-cont .email{
+    display: none;
+     
+}
+.top-header-cont {
+    justify-content: unset;
+    padding: 0;
+    gap: 15px;
+}
+.top-header-cont img{
+width: 130px;     
+}
+.banner-image .box-icon {
+    position: absolute;
+    width: 100px;
+    top:-25%
+}
+
+.passion-sec-main .top {
+    width: 100%;
+}
+.main-cont .banner-element-2 {
+    margin-top: unset;
+    width: 50%;
+}
+.passion-hobby-cont {
+    display: none;
+}
+
+.pt-80{
+    padding-top: 40px;
+}
+.pb-80{
+    padding-bottom: 40px;
+}
+.passion-right-cont .about h1 {
+    font-size: 32px;
+ 
+}
+
+.company-name {
+    font-size: 1.6rem;
+ 
+}
+.item-date {
+    font-size: 1rem;
+}
+.experience-item {
+    gap: 18px;
+}
+.experience-section .experience-item .item-content .description {
+    text-align: justify;
+
+}
+.skills-section .skill-tool-cont h2 {
+    text-align: left;
+    font-size: 2.5rem;
+}
+.skill-card {
+border: 1px solid #C9F31D;
+padding: 16px;
+}
+.what-do-section .content h1 {
+    font-size: 3.5rem;
+}
+.what-we-do-br {
+    display: none;
+}
+.what-do-section .content h5 {
+    font-size: 17px;
+}
+.scroll-section .step-number {
+    font-size: 1.5rem;
+}
+.scroll-section .service-item {
+    gap: 10px;
+}
+.scroll-section .title {
+    font-size: 2rem;
+}
+.marquee-item {
+    gap: 25px;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+.marquee-item span:first-child {
+    font-size: 32px;
+}
+.marquee-item .star {
+    font-size: 80px;
+}
+.marquee-section {
+    padding: 20px 0;
+}
+.projects-section h2{
+    font-size: 2rem !important;
+
+}
+.projects-section p {
+    font-size: 0.80rem !important;
+}
+.secoundgrid {
+    margin-top: 0px;
+}
+.social-project-section{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+.poster-label {
+    font-size: 1.5rem;
+}
+.navigation-wrapper {
+    margin-left: 0;
+}
+.navigation-wrapper .gap-2{
+    justify-content: center;
+}
+.main-heading {
+    font-size: 2rem;
+}
+.pb-40{
+    padding-bottom: 20px;
+}
+.pt-40{
+    padding-top: 20px;
+}
+.sub-heading {
+    font-size: 1rem;
+}
+.mockup-container {
+   
+    margin-left: 0px;
+}
+.liquid-bg-graphic {
+    display: none;
+}
+.description-text {
+    font-size: 1rem;
+    text-align: justify;
+}
+.mockup-mid {
+  display: none;
+}
+.mockup-flat {
+ display: none;
+}
+.mockup-main {
+    left: 0;
+    top: 0;
+    transform: unset;
+    z-index: 3;
+    width: 400px;
+}
+.liquid-bg-left {
+    display: none;
+}
+.watermark-image {
+    position: absolute;
+    top: 0;
+    right: 18%;
+}
+.barber-app-section .watermark-image img{
+    width: 100%;
+
+}
+.section-title {
+    font-size: 2rem;
+}
+
+.barber-app-section  .section-title{
+    justify-content: center;
+}
+.designer-img-wrapper .designer-img {
+    max-width: unset;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+     .store-pioletai .left-cont .abstract-img {
+  display: none;
+}
+    .store-pioletai-img img {
+    display: none;
+}
+    .mockup-container {
+ 
+    margin-left: unset;
+}
+    .liquid-bg-graphic{
+        display: none;
+    }
+.banner-content .main-cont h1 {
+    font-size: 30px;
+    margin-top: 116px;
+}
+.banner-image .box-icon {
+    top: 0;
+}
+.banner-content .banner-element {
+    right: -25%;
+    top: 0%;
+    width: 40%;
+}
+.social-project-section {
+    min-height: unset;
+}
+.dashboard-design-section {
+    min-height: unset;
+   
+}
+.banner-image .box-icon {
+    width: 30%;
+}
+.top-header-cont {
+    display: grid;
+
+}
+.banner-content .main-cont {
+    margin-top: 0;
+}
+.passion-sec-main .top img {
+    width: 50px;
+}
+.passion-hobby-cont{
+    padding-bottom: 40px !important;
+}
+.what-do-section .content h1 {
+    font-size: 8rem;
+}
+.what-do-section .content h5 {
+    font-size: 25px;
+}
+
+.scroll-section .right-content p {
+
+    margin: 28px;
+}
+.scroll-section .title {
+    font-size: 2rem;
+ 
+}
+.scroll-section .service-item {
+
+    display: flex;
+    gap: 18px;
+    padding: 0 4%;
+}
+.social-title {
+    margin-left: unset;
+}
+.navigation-wrapper {
+    justify-content: end !important;
+}
+.sub-heading {
+    font-size: 1rem;
+}
+.secoundgrid {
+    margin-top: 0;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .store-pioletai .left-cont .abstract-img {
+  display: none;
+}
+    .store-pioletai-img img {
+    display: none;
+}
+    .mockup-container {
+ 
+    margin-left: unset;
+}
+    .liquid-bg-graphic{
+        display: none;
+    }
+.banner-content .main-cont h1 {
+    font-size: 30px;
+    margin-top: 116px;
+}
+.banner-image .box-icon {
+    top: 0;
+}
+.banner-content .banner-element {
+    right: -25%;
+    top: 0%;
+    width: 40%;
+}
+.social-project-section {
+    min-height: unset;
+}
+.dashboard-design-section {
+    min-height: unset;
+   
+}
+.banner-image .box-icon {
+    width: 30%;
+}
+.top-header-cont {
+    display: grid;
+
+}
+.banner-content .main-cont {
+    margin-top: 0;
+}
+.passion-sec-main .top img {
+    width: 50px;
+}
+.passion-hobby-cont{
+    padding-bottom: 40px !important;
+}
+.what-do-section .content h1 {
+    font-size: 8rem;
+}
+.what-do-section .content h5 {
+    font-size: 25px;
+}
+
+.scroll-section .right-content p {
+
+    margin: 28px;
+}
+.scroll-section .title {
+    font-size: 2rem;
+ 
+}
+.scroll-section .service-item {
+
+    display: flex;
+    gap: 18px;
+    padding: 0 4%;
+}
+.social-title {
+    margin-left: unset;
+}
+.navigation-wrapper {
+    justify-content: end !important;
+}
+.sub-heading {
+    font-size: 1rem;
+}
+.passion-right-cont .about h1 {
+    font-size: 45px;
+}
+
+.main-heading {
+    font-size: 3rem;
+}
+.designer-img-wrapper {
+
+    justify-content: center;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+   .store-pioletai .left-cont .abstract-img {
+
+    width: 80%;
+    top: 0%;
+}
+    .mockup-container {
+ 
+    margin-left: unset;
+}
+    .liquid-bg-graphic{
+        display: none;
+    }
+.banner-content .main-cont h1 {
+    font-size: 30px;
+    margin-top: 116px;
+}
+.banner-image .box-icon {
+    top: 0;
+}
+.banner-content .banner-element {
+    right: -25%;
+    top: 0%;
+    width: 40%;
+}
+.social-project-section {
+    min-height: unset;
+}
+.dashboard-design-section {
+    min-height: unset;
+   
+}
+.banner-image .box-icon {
+    width: 30%;
+}
+.top-header-cont {
+    display: grid;
+
+}
+.banner-content .main-cont {
+    margin-top: 0;
+}
+.passion-sec-main .top img {
+    width: 50px;
+}
+.passion-hobby-cont{
+    padding-bottom: 40px !important;
+}
+.what-do-section .content h1 {
+    font-size: 8rem;
+}
+.what-do-section .content h5 {
+    font-size: 25px;
+}
+
+.scroll-section .right-content p {
+
+    margin: 28px;
+}
+.scroll-section .title {
+    font-size: 2rem;
+ 
+}
+.scroll-section .service-item {
+
+    display: flex;
+    gap: 18px;
+    padding: 0 4%;
+}
+.social-title {
+    margin-left: unset;
+}
+.navigation-wrapper {
+    justify-content: end !important;
+}
+.sub-heading {
+    font-size: 1rem;
+}
+.passion-right-cont .about h1 {
+    font-size: 45px;
+}
+/* .mobile-mockup-container {
+
+    left: 0;
+} */
+.main-heading {
+    font-size: 3rem;
+}
+.designer-img-wrapper {
+
+    justify-content: center;
+}
+
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1301px) {
+    .mockup-container {
+ 
+    margin-left: unset;
+}
+    .liquid-bg-graphic{
+        display: none;
+    }
+.banner-content .main-cont h1 {
+    font-size: 30px;
+    margin-top: 116px;
+}
+.banner-image .box-icon {
+    top: 0;
+}
+.banner-content .banner-element {
+    right: -25%;
+    top: 0%;
+    width: 40%;
+}
+.social-project-section {
+    min-height: unset;
+}
+.dashboard-design-section {
+    min-height: unset;
+   
+}
+.banner-image .box-icon {
+    width: 30%;
+}
+.top-header-cont {
+    display: grid;
+
+}
+.banner-content .main-cont {
+    margin-top: 0;
+}
+.passion-sec-main .top img {
+    width: 50px;
+}
+.passion-hobby-cont{
+    padding-bottom: 40px !important;
+}
+.what-do-section .content h1 {
+    font-size: 8rem;
+}
+.what-do-section .content h5 {
+    font-size: 25px;
+}
+
+.scroll-section .right-content p {
+
+    margin: 28px;
+}
+.scroll-section .title {
+    font-size: 2rem;
+ 
+}
+.scroll-section .service-item {
+
+    display: flex;
+    gap: 18px;
+    padding: 0 4%;
+}
+.social-title {
+    margin-left: unset;
+}
+.navigation-wrapper {
+    justify-content: end !important;
+}
+.sub-heading {
+    font-size: 1rem;
+}
+.passion-right-cont .about h1 {
+    font-size: 45px;
+}
+/* .mobile-mockup-container {
+
+    left: 0;
+} */
+.main-heading {
+    font-size: 3rem;
+}
+.designer-img-wrapper {
+
+    justify-content: center;
+}
+
+}
+
+

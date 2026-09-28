@@ -1,0 +1,2173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+/* =========================================
+   CAROUSEL
+========================================= */
+
+.carousel-wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.socialSwiper {
+  width: 100%;
+  /* height: 620px; */
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0 !important;
+}
+
+
+/* =========================================
+   POSTER SLIDES
+========================================= */
+
+.socialSwiper .swiper-slide {
+  width: 280px;
+  height: 500px;
+
+  flex-shrink: 0;
+
+  border-radius: 18px;
+  overflow: hidden;
+
+  opacity: 0.45;
+
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialSwiper .swiper-slide-active {
+  opacity: 1;
+}
+
+.socialSwiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 18px;
+}
+
+
+/* =========================================
+   PHONE FRAME
+========================================= */
+
+.mobile-mockup-container {
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+    width: 320px;
+    pointer-events: none;
+}
+
+.mobile-frame-img {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+.navigation-wrapper {
+  position: relative;
+  z-index: 30;
+}
+
+
+/* =========================================
+   LARGE DESKTOP
+========================================= */
+
+@media (min-width: 1400px) {
+
+  /* .socialSwiper {
+    height: 650px;
+  } */
+
+  .socialSwiper .swiper-slide {
+    width: 300px;
+    height: 540px;
+  }
+
+  .mobile-mockup-container {
+    width: 340px;
+  }
+}
+
+
+/* =========================================
+   1200px - 1399px
+========================================= */
+
+@media (max-width: 1399px) {
+
+  /* .socialSwiper {
+    height: 600px;
+  } */
+
+  .socialSwiper .swiper-slide {
+    width: 270px;
+    height: 480px;
+  }
+
+  .mobile-mockup-container {
+    width: 310px;
+  }
+  .mobile-mockup-container {
+    transform: translate(-51%, -50%);
+  
+}
+}
+
+
+/* =========================================
+   992px - 1199px
+========================================= */
+
+@media (max-width: 1199px) {
+
+  /* .socialSwiper {
+    height: 560px;
+  } */
+
+  .socialSwiper .swiper-slide {
+    width: 250px;
+    height: 450px;
+  }
+
+  .mobile-mockup-container {
+    width: 285px;
+  }
+}
+
+
+/* =========================================
+   768px - 991px
+========================================= */
+
+@media (max-width: 991px) {
+
+  /* .socialSwiper {
+    height: 500px;
+  } */
+
+  .socialSwiper .swiper-slide {
+    width: 220px;
+    height: 400px;
+  }
+
+  .mobile-mockup-container {
+    width: 255px;
+  }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+  .socialSwiper {
+    height: 440px;
+    padding: 10px 0 !important;
+  }
+
+  .socialSwiper .swiper-slide {
+    width: 195px;
+    height: 360px;
+
+    border-radius: 14px;
+  }
+
+  .socialSwiper .swiper-slide img {
+    border-radius: 14px;
+  }
+
+  .mobile-mockup-container {
+    width: 225px;
+  }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 575px) {
+
+  .socialSwiper {
+    height: 390px;
+  }
+
+  .socialSwiper .swiper-slide {
+    width: 175px;
+    height: 320px;
+  }
+
+  .mobile-mockup-container {
+    width: 205px;
+  }
+
+  .navigation-wrapper {
+    margin-top: 15px !important;
+  }
+
+  .poster-label {
+    font-size: 16px;
+  }
+}
+
+
+/* =========================================
+   VERY SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+  .socialSwiper {
+    height: 350px;
+  }
+
+  .socialSwiper .swiper-slide {
+    width: 155px;
+    height: 285px;
+  }
+
+  .mobile-mockup-container {
+    width: 185px;
+  }
+}
+
+
+.banner-main {
+  background: #000000;
+  /* height: 100vh; */
+}
+
+.container-fluid {
+  width: 95%;
+}
+
+.banner-image {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.banner-image .box-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.top-header-cont a {
+  text-decoration: none;
+  color: #fff;
+}
+.top-header-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.banner-content .main-cont {
+  margin-top: 150px;
+}
+
+.banner-content .main-cont h1 {
+  color: #fff;
+  font-size: 85px;
+}
+
+
+.main-cont .banner-element-2 {
+  margin-top: 20px;
+  width: 35%;
+}
+
+.banner-content {
+  position: relative;
+}
+.banner-content .banner-element {
+  position: absolute;
+  right: -30%;
+  top: -10%;
+}
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+.passion-sec-main {
+  background: #000;
+}
+.passion-sec-main .top h3 {
+  color: #fff;
+}
+.passion-sec-main .top {
+  display: flex;
+  align-items: end;
+  width: 50%;
+}
+.passion-sec-main .top img {
+  width: 100px;
+}
+
+.cards-container {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+
+.cards-container .card {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  background: #707070;
+  transition: flex 0.5s ease;
+  border-radius: 20px;
+}
+
+.cards-container .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+/* First card active by default */
+.cards-container .card.active {
+  flex: 3;
+}
+
+/* When hovering container, reset active */
+.cards-container:hover .card {
+  flex: 1;
+}
+
+.card-content {
+  position: absolute;
+  /* bottom: 0; */
+  left: 0;
+  right: 0;
+  padding: 25px;
+  color: white;
+  background: linear-gradient(#060606c7, rgb(0 0 0 / 5%));
+}
+
+/* Active card - no color */
+.cards-container .card.active::before {
+  opacity: 0;
+}
+
+/* Hovered card becomes active */
+.cards-container:hover .card::before {
+  opacity: 1;
+}
+
+.cards-container .card:hover::before {
+  opacity: 0;
+}
+
+.cards-container .card.active,
+.cards-container .card:hover {
+  flex: 3;
+}
+
+.cards-container .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cards-container .card:hover img {
+  transform: scale(1.05);
+}
+
+.cards-container .card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #2a3311 0%, #1a200a 100%);
+  z-index: 1;
+  transition: opacity 0.5s ease;
+}
+.cards-container .card:hover {
+  flex: 3;
+}
+
+.cards-container .card:hover::before {
+  opacity: 0;
+}
+
+.card-icon {
+  position: absolute;
+  z-index: 5;
+  bottom: 25px;
+  left: 50%;
+
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #fff;
+  border-radius: 50%;
+
+  transform: translateX(-50%);
+  transition: all 0.5s ease;
+}
+.card-icon i {
+  color: #fff;
+  font-size: 20px;
+  transition: transform 0.5s ease;
+}
+
+.card.active:not(:hover) .card-icon {
+  left: 80%;
+  right: auto;
+  transform: translateX(0);
+}
+
+.card.active:not(:hover) .card-icon i {
+  transform: rotate(45deg);
+}
+
+/* Active → Down */
+
+.card {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 15px;
+  background: #707070;
+  transition: flex 0.5s ease;
+}
+
+/* Image */
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Gray overlay */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #707070;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+}
+
+/* Initial active card */
+.card.active {
+  flex: 3;
+}
+
+.card.active::before {
+  opacity: 0;
+}
+
+/* When hovering container, all cards become small */
+.cards-container:hover .card {
+  flex: 1;
+}
+
+.cards-container:hover .card::before {
+  opacity: 1;
+}
+
+/* Hovered card expands */
+.cards-container .card:hover {
+  flex: 3;
+}
+
+.cards-container .card:hover::before {
+  opacity: 0;
+}
+
+.card-content {
+  position: absolute;
+
+  z-index: 3;
+  color: white;
+
+  transition: all 0.5s ease;
+}
+
+/* Hover card text center */
+.card:hover .card-content {
+  top: 0;
+}
+
+/* Number */
+.card-content h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.card-content h3 {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+/* =========================
+   ICON
+========================= */
+
+.card-icon {
+  position: absolute;
+  z-index: 5;
+
+  bottom: 25px;
+  left: 50%;
+
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #fff;
+  border-radius: 50%;
+
+  transform: translateX(-50%);
+
+  transition: all 0.5s ease;
+}
+
+.card-icon i {
+  color: #fff;
+  font-size: 20px;
+
+  transition: transform 0.5s ease;
+}
+
+/* =========================
+   ACTIVE ICON
+========================= */
+
+.card.active .card-icon {
+  left: 80%;
+  right: auto;
+  transform: translateX(0);
+}
+
+.card.active .card-icon i {
+  transform: rotate(45deg);
+}
+
+/* =========================
+   HOVER ICON
+========================= */
+
+.card:hover .card-icon {
+  left: auto;
+  right: 25px;
+  transform: translateX(0);
+}
+
+.card:hover .card-icon i {
+  transform: rotate(45deg);
+}
+.cards-container:hover .card:not(:hover) .card-icon {
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+}
+
+.cards-container:hover .card:not(:hover) .card-icon i {
+  transform: rotate(0deg);
+}
+.card-content h1 {
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.passion-right-cont .about h3 {
+  color: #fff;
+}
+.passion-right-cont .about h3 span {
+  color: #c9f31d;
+}
+.passion-right-cont .about {
+  color: #fff;
+}
+.passion-right-cont .about h1 span {
+  color: #c9f31d;
+}
+.passion-right-cont .about h1 {
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.passion-right-cont {
+  /* display: flex; */
+  padding: 35px 20px;
+}
+.passion-right-cont .about a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 6px 6px 20px;
+  text-decoration: none;
+  color: #000;
+  background: #c9f31d;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.passion-right-cont .about .icon {
+  width: 36px;
+  height: 36px;
+  background: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+.passion-right-cont .about p {
+  text-align: justify;
+}
+
+.passion-right-cont .about .icon i {
+  color: #c9f31d; /* Set lime green arrow by default */
+  font-size: 16px;
+  transform: rotate(-45deg); /* Point diagonally up-right */
+  transition: transform 0.3s ease;
+}
+
+/* Optional hover polish */
+.passion-right-cont .about a:hover .icon {
+  transform: scale(1.05);
+}
+
+.passion-right-cont .about a:hover .icon i {
+  transform: rotate(0deg); /* Animates arrow on hover */
+}
+
+/* Section Container */
+.experience-section {
+  background-color: #000000;
+  color: #ffffff;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
+
+/* Heading with Lime Accent Line */
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.accent-line {
+  display: inline-block;
+  width: 50px;
+  height: 6px;
+  background-color: #c9f31d;
+  border-radius: 2px;
+}
+
+/* List Layout */
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.experience-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.item-content {
+  max-width: 750px;
+}
+
+/* Typography */
+.company-name {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  color: #ffffff;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cccccc;
+  margin: 0;
+}
+
+/* Date Styling */
+.item-date {
+  color: #c9f31d;
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* Section Styles */
+.skills-section {
+  background-color: #050505;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
+
+.section-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+/* Card Outer Container */
+.skill-card {
+  background: radial-gradient(
+    circle at 50% 50%,
+    #202a0b 0%,
+    #12140a 60%,
+    #0d0e08 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 32px;
+  transition: border-color 0.3s ease;
+}
+
+.skill-card:hover {
+  border-color: rgba(201, 243, 29, 0.4);
+}
+
+/* Card Header & Icons */
+.card-header-custom {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon-box {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #c9f31d;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c9f31d;
+  font-size: 1.25rem;
+}
+
+.card-title {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Item Bullet Lists */
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.skill-list li {
+  color: #dddddd;
+  font-size: 0.95rem;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* Custom Lime Bullet */
+.skill-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7px;
+  height: 7px;
+  background-color: #c9f31d;
+  border-radius: 50%;
+}
+
+.skillrow {
+  justify-content: center;
+}
+
+.what-do-section {
+  background: #000;
+}
+.what-do-section .content h1 {
+  color: #fff;
+  font-size: 18rem;
+}
+.what-do-section .content {
+  text-align: center;
+}
+.what-do-section .content h5 {
+  color: #707070;
+  font-size: 35px;
+}
+/* Base styling for the heading container */
+.hover-text {
+  display: inline-block;
+  color: #ffffff; /* Base text color */
+}
+
+/* Individual letter positioning and hover dynamics */
+.hover-text span {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  transition:
+    transform 0.3s ease,
+    top 0.3s ease,
+    color 0.3s ease,
+    text-shadow 0.3s ease;
+}
+
+/* Hover effect: moves up and adds a glowing light effect */
+.hover-text span:hover {
+  top: -100px; /* Moves letter upward */
+  color: #ffffff;
+  text-shadow:
+    0 0 12px rgba(255, 255, 255, 0.9),
+    0 0 20px rgba(255, 255, 255, 0.6);
+}
+/* Handles space width preservation */
+.hover-text span.space {
+  width: 5px;
+}
+
+/* Section Background */
+.scroll-section {
+  background-color: #000000;
+  color: #ffffff;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+/* Each service = one screen */
+.scroll-section .service-item {
+  box-sizing: border-box;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0 10%;
+  scroll-snap-align: start;
+}
+
+/* Left Column */
+.scroll-section .left-content {
+  flex: 1;
+}
+
+.scroll-section .step-number {
+  color: #ccff00;
+  font-size: 1.9rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.scroll-section .title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+}
+
+.scroll-section .title .dash {
+  color: #ccff00;
+}
+
+/* Divider */
+.scroll-section .divider {
+  width: 4px;
+  height: 150px;
+  background-color: #ccff00;
+  flex-shrink: 0;
+}
+
+/* Right Column */
+.scroll-section .right-content {
+  flex: 1;
+}
+
+.scroll-section .right-content p {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 450px;
+}
+
+/* Scrollbar */
+.scroll-section::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll-section::-webkit-scrollbar-track {
+  background: #000;
+}
+
+.scroll-section::-webkit-scrollbar-thumb {
+  background: #ccff00;
+  border-radius: 10px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .scroll-section {
+    height: 100vh;
+  }
+
+  .scroll-section .service-item {
+    min-height: 400px;
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 20px;
+    padding: 50px 25px;
+
+    scroll-snap-align: start;
+  }
+
+  .scroll-section .divider {
+    width: 100%;
+    height: 3px;
+  }
+
+  .scroll-section .title {
+    font-size: 2.5rem;
+  }
+
+  .scroll-section .right-content p {
+    font-size: 1rem;
+  }
+}
+
+.marquee-section {
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+  padding: 40px 0;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  animation: marquee 25s linear infinite;
+}
+
+.marquee-item {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-right: 70px;
+  white-space: nowrap;
+}
+
+.marquee-item span:first-child {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.marquee-item .star {
+  color: #ccff00;
+  font-size: 120px;
+  line-height: 0;
+  display: inline-block;
+}
+
+/* Continuous left scroll */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Include Bootstrap Icons in your <head> for the arrow: */
+/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> */
+
+/* Section Styling */
+.projects-section {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.highlight {
+  color: #ccff00; /* Lime Green */
+}
+
+/* Project Card Base */
+.project-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #121212;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+.project-img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Glassmorphism Bottom Overlay */
+.card-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+}
+
+.overlay-title {
+  color: #ccff00;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.overlay-desc {
+  color: #d1d5db;
+  font-size: 0.78rem;
+  line-height: 1.3;
+}
+
+/* Neon Arrow Button */
+.arrow-btn {
+  width: 42px;
+  height: 42px;
+  background-color: #ccff00;
+  color: #000000;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.arrow-btn:hover {
+  background-color: #b3e600;
+  color: #000000;
+  transform: scale(1.05);
+}
+.secoundgrid {
+  margin-top: 150px;
+}
+
+.adjusment-padding {
+  padding: 0px 30px 0px 30px;
+}
+
+/* Section Base */
+.social-project-section {
+  background-color: #000000;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+.project-title {
+  color: #ccff00; /* Neon Lime */
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* Swiper Container Spacing */
+.socialSwiper {
+  width: 100%;
+  /* height: 620px; */
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0 !important;
+}
+
+.socialSwiper .swiper-slide {
+  width: 260px;
+  height: 380px;
+  border-radius: 12px;
+  overflow: hidden;
+  opacity: 0.5;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+/* Active slide under the frame stays fully visible */
+.socialSwiper .swiper-slide-active {
+  opacity: 1;
+}
+
+.socialSwiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Fixed Mobile Frame Styling */
+.mobile-mockup-container {
+    position: absolute;
+    /* top: 219px; */
+    /* left: 31%; */
+    z-index: 10;
+    width: 412px;
+    pointer-events: none;
+}
+
+.mobile-frame-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Navigation Buttons */
+.navigation-wrapper {
+  margin-left: 100px;
+}
+
+.poster-label {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.custom-nav-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #222222;
+  border: 1px solid #333333;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.custom-nav-btn:hover {
+  background-color: #ccff00;
+  color: #000000;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 991px) {
+  .socialSwiper {
+    padding-left: 0 !important;
+  }
+  .mobile-mockup-container {
+    display: none; /* Hide frame on small screens or adjust layout */
+  }
+  .navigation-wrapper {
+    padding-left: 0;
+  }
+}
+
+.social-title {
+  margin-left: 7%;
+}
+
+/* Include Bootstrap Icons in <head> for the arrow: */
+/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> */
+
+/* Main Section */
+.how-i-work-section {
+  background-color: #000000;
+  color: #ffffff;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  overflow: hidden;
+}
+
+/* Typography */
+.main-heading {
+  color: #ccff00; /* Neon Lime Green */
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+/* Custom Neon Pill Button */
+.btn-neon {
+  background-color: #ccff00;
+  color: #000000;
+  font-weight: 600;
+  padding: 6px 8px 6px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+  border: none;
+}
+
+.btn-neon:hover {
+  background-color: #b3e600;
+  color: #000000;
+  transform: translateY(-2px);
+}
+
+.btn-neon .icon-circle {
+  background-color: #000000;
+  color: #ccff00;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+/* Mockup Display */
+.mockup-container {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -45px;
+}
+.mockup-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive Scaling */
+@media (max-width: 991px) {
+  .main-heading {
+    font-size: 3rem;
+  }
+}
+
+.mockup-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 512px;
+}
+
+.mockup-frame {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.screen-viewport {
+  position: absolute;
+  top: 10.5%;
+  left: 7.5%;
+  width: 83%;
+  height: 72%;
+  overflow-y: auto;
+  z-index: 1;
+  cursor: grab;
+  user-select: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollable-website-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Smooth Infinite Scroll Animation */
+  animation: scrollWebsite 12s ease-in-out infinite alternate;
+}
+
+/* Mouse hover pause effect */
+.mockup-container:hover .scrollable-website-img {
+  animation-play-state: paused;
+}
+
+/* Keyframes for vertical auto-scrolling */
+@keyframes scrollWebsite {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(calc(-100% + 300px)); /* Scrolls full image height */
+  }
+}
+
+.mockup-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 650px;
+}
+
+/* Laptop Section */
+.mockup-container {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -83px;
+  margin-left: 70px;
+}
+
+/* Screen Viewport Overlay */
+
+.scrollable-website-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: scrollWebsite 12s ease-in-out infinite alternate;
+}
+
+.mockup-container:hover .scrollable-website-img {
+  animation-play-state: paused;
+}
+
+@keyframes scrollWebsite {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(calc(-100% + 280px));
+  }
+}
+
+/* Stone Pedestal Section */
+.stone-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.stone-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.screen-viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.screen-viewport:active {
+  cursor: grabbing;
+}
+
+.scrollable-website-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none; /* Disables default image drag */
+}
+
+/* Stone Pedestal */
+.stone-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.stone-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Base Section Styling */
+.dashboard-design-section {
+  background-image: url("../images/Bottom BG -1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: #ffffff;
+
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+/* Card Rounded Corners */
+.mockup-card {
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+/* Large Drop-Cap Heading */
+.section-title {
+    font-size: 3.8rem;
+    line-height: 0.95;
+    display: flex;
+    align-items: end;
+}
+
+.drop-letter {
+  color: #ccff00; /* Lime Green */
+  font-size: 7.5rem;
+  font-weight: 600;
+  line-height: 0.75;
+  margin-right: 2px;
+}
+
+.title-text {
+  color: #ccff00;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.title-text::first-line {
+  color: #ccff00;
+}
+
+/* Paragraph Content */
+.description-text {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  max-width: 480px;
+  font-weight: 400;
+  color: #e0e0e0;
+}
+
+/* Neon Pill Button */
+.btn-neon {
+  background-color: #ccff00;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 6px 8px 6px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+  border: none;
+}
+
+.btn-neon:hover {
+  background-color: #b3e600;
+  color: #000000;
+  transform: translateY(-2px);
+}
+
+.btn-neon .icon-circle {
+  background-color: #000000;
+  color: #ccff00;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+/* Abstract Wave Overlay */
+.liquid-bg-graphic {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 35%;
+  pointer-events: none;
+  /* z-index: -1; */
+  opacity: 0.85;
+}
+
+.liquid-bg-graphic img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+  .drop-letter {
+    font-size: 5.5rem;
+  }
+  .section-title {
+    font-size: 2.4rem;
+  }
+  .liquid-bg-graphic {
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+/* Base Section Styling */
+.barber-app-section {
+  background-color: #000000;
+  min-height: 85vh;
+  color: #ffffff;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+/* Background Watermark */
+.watermark-text {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  font-size: 11rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.05);
+  letter-spacing: 12px;
+  user-select: none;
+  pointer-events: none;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+/* Heading Styling */
+.skills-section .skill-tool-cont h2{
+  text-align: center;
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+.highlight {
+  color: #ccff00; /* Neon Lime Green */
+}
+
+/* Neon Pill Button */
+.btn-neon-pill {
+  background-color: #ccff00;
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 12px 38px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  border: none;
+}
+
+.btn-neon-pill:hover {
+  background-color: #b3e600;
+  color: #000000;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(204, 255, 0, 0.25);
+}
+
+/* Mockups Stacking & Perspective Layout */
+.mockups-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 420px;
+}
+
+.mockup-item {
+  position: absolute;
+  transition: transform 0.3s ease;
+}
+
+/* 1. Main Left Phone */
+.mockup-main {
+  left: 0px;
+  top: 34%;
+  transform: translateY(-52%) rotate(-8deg);
+  z-index: 3;
+  width: 400px;
+}
+
+/* 2. Middle Phone */
+.mockup-mid {
+  left: 48%;
+  top: 50%;
+  transform: translateY(-29%) rotate(1deg) scale(0.85);
+  z-index: 2;
+  width: 262px;
+}
+
+/* 3. Right Flat Isometric Phone */
+.mockup-flat {
+  left: 78%;
+  top: 50%;
+  transform: translateY(-30%) rotateX(331deg) rotateZ(20deg) scale(0.75);
+  z-index: 1;
+  width: 267px;
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.8));
+}
+
+/* Left Liquid Element */
+.liquid-bg-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.liquid-bg-left img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive Scaling */
+@media (max-width: 991px) {
+  .watermark-text {
+    font-size: 5rem;
+    top: 5%;
+  }
+
+  .section-title {
+    font-size: 3rem;
+  }
+
+  .mockups-group {
+    scale: 0.85;
+    min-height: 350px;
+  }
+
+  .mockup-flat {
+    left: 300px;
+  }
+}
+
+.skill-card .card-header-custom .icon-box i{
+  color: #c9f31d;
+}
+/* Background Watermark Image Styling */
+.watermark-image {
+  position: absolute;
+  top: 13%;
+  right: 18%;
+}
+
+
+.skill-tool-cont {
+  text-align: center;
+}
+
+
+/* Base Footer Section */
+.footer-section {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Contact Card Container */
+.contact-card {
+  background-color: #292828;
+  border-radius: 20px;
+  padding: 36px 32px;
+  border: 1px solid #222222;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Social Items */
+.platform-name {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.social-link {
+  color: #ccff00; /* Neon Lime Accent */
+  text-decoration: underline;
+  font-size: 0.95rem;
+  margin-left: 44px;
+  display: inline-block;
+  word-break: break-all;
+  transition: opacity 0.2s ease;
+}
+
+.social-link:hover {
+  color: #b3e600;
+  opacity: 0.85;
+}
+
+/* Custom Icon Boxes */
+.icon-box {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+
+.linkedin-box { background-color: #0077b5; }
+.naukri-box   { background-color: #2e71f0; }
+.behance-box  { background-color: #0057ff; }
+
+/* Direct Contact Info */
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.contact-detail:hover {
+  color: #ccff00;
+}
+
+.icon-circle-sm {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid #ccff00;
+  color: #ccff00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+}
+
+/* Right Side Quote Typography */
+/* .quote-wrapper {
+  max-width: 480px;
+  margin-left: auto;
+} */
+
+.quote-text {
+    font-size: 30px;
+    color: #e0e0e0;
+    line-height: 1.4;
+}
+.quote-heading {
+  font-size: 2.8rem;
+  letter-spacing: 0.5px;
+  text-align: end;
+}
+
+.script-designer {
+  font-family: 'Great Vibes', cursive, sans-serif;
+  color: #ccff00; /* Neon Lime Accent */
+  font-size: 4.5rem;
+  display: block;
+  line-height: 0.9;
+  margin-top: 4px;
+  text-align: end;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 991px) {
+  .quote-wrapper {
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .contact-card {
+    padding: 24px 20px;
+  }
+
+  .social-link {
+    margin-left: 0;
+    margin-top: 4px;
+  }
+  .quote-wrapper {
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .designer-img {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+}
+.projects-section h2{
+  font-size: 3rem;
+}
+
+.typing-heading {
+  color: #fff;
+}
+.designer-img-wrapper {
+    /* display: inline-block; */
+    margin-top: 5px;
+    /* align-items: end; */
+    justify-content: end;
+    display: flex;
+}
+.designer-img {
+  width: 100%;
+  max-width: 320px; /* Adjust maximum width to fit your layout */
+  height: auto;
+  display: block;
+}
+
+
+.typing-line {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  vertical-align: bottom;
+  animation: typing 2s steps(20, end) forwards;
+}
+
+
+.typing-heading{
+  color: #fff;
+}
+.typing-line:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.typing-line:nth-child(3) {
+  animation-delay: 2s;
+}
+
+.typing-design {
+  color: #c9f31d;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+
+
+#cursor-splash {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #c9f31d;
+  pointer-events: none;
+  z-index: 999999;
+  transform: translate(-50%, -50%);
+
+  box-shadow:
+    0 0 10px #c9f31d,
+    0 0 25px rgba(201, 243, 29, 0.8);
+}
+
+
+/* SMOKE */
+
+/* =========================
+   STRONG GREEN SMOKE
+========================= */
+
+.smoke-cloud {
+  position: fixed;
+  pointer-events: none;
+  z-index: 999998;
+
+  width: 45px;
+  height: 45px;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(201, 243, 29, 0.65) 0%,
+      rgba(201, 243, 29, 0.45) 20%,
+      rgba(201, 243, 29, 0.30) 40%,
+      rgba(201, 243, 29, 0.16) 58%,
+      rgba(201, 243, 29, 0.06) 72%,
+      transparent 85%
+    );
+
+  filter: blur(9px);
+
+  box-shadow:
+    0 0 25px rgba(201, 243, 29, 0.35),
+    0 0 50px rgba(201, 243, 29, 0.2);
+
+  transform: translate(-50%, -50%);
+
+  animation: expandingSmoke 1.5s ease-out forwards;
+}
+
+
+@keyframes expandingSmoke {
+
+  0% {
+    opacity: 0;
+    transform:
+      translate(-50%, -50%)
+      scale(0.2);
+  }
+
+  10% {
+    opacity: 0.95;
+  }
+
+  35% {
+    opacity: 0.75;
+  }
+
+  60% {
+    opacity: 0.45;
+  }
+
+  100% {
+    opacity: 0;
+    transform:
+      translate(
+        calc(-50% + var(--x)),
+        calc(-50% + var(--y))
+      )
+      scale(5);
+  }
+}
+
+
+/* =========================
+   EXTRA GREEN SMOKE PUFF
+========================= */
+
+.smoke-puff {
+  position: fixed;
+  pointer-events: none;
+  z-index: 999997;
+
+  width: 35px;
+  height: 35px;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(201, 243, 29, 0.50) 0%,
+      rgba(201, 243, 29, 0.30) 30%,
+      rgba(201, 243, 29, 0.15) 55%,
+      transparent 80%
+    );
+
+  filter: blur(11px);
+
+  box-shadow:
+    0 0 30px rgba(201, 243, 29, 0.3);
+
+  transform: translate(-50%, -50%);
+
+  animation: puff 1.3s ease-out forwards;
+}
+
+
+@keyframes puff {
+
+  0% {
+    opacity: 0;
+    transform:
+      translate(-50%, -50%)
+      scale(0.2);
+  }
+
+  15% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 0.45;
+  }
+
+  100% {
+    opacity: 0;
+    transform:
+      translate(
+        calc(-50% + var(--x)),
+        calc(-50% + var(--y))
+      )
+      scale(4.5);
+  }
+}
+
+html,
+body,
+a,
+button {
+  cursor: none !important;
+}
+
+
+.store-pioletai {
+    background-image: url("../images/Botthon\ BG-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.store-pioletai-img img{
+  width: 100%;
+}
+.store-pioletai .left-cont h1{
+  color: #fff;
+  font-size: 4rem;
+
+}
+.store-pioletai .left-cont h1 span{
+  color: #C9F31D;
+
+}
+.store-pioletai .left-cont .abstract-img {
+    transform: rotate(
+120deg);
+    width: 50%;
+    position: absolute;
+    z-index: 0;
+    top: 10%;
+}
+.store-pioletai .left-cont{
+  position: relative;
+}
+.store-pioletai .left-cont .cont{
+   z-index: 1;
+   position: relative;
+}
+.store-pioletai .left-cont p{
+  color: #fff;
+  font-size: 2rem;
+}
+.store-pioletai .left-cont a{
+background: yellow;
+padding: 10px 30px;
+border-radius: 1rem;
+color: #000;
+font-weight: 600;
+}
+.store-pioletai .right-image {
+display: flex;
+width: 100%;
+
+}
+.store-pioletai .right-image img{
+width: 50%;
+}
+
+
