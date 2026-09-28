@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-
+html, body { overflow-x: hidden; max-width: 100%; }
 
 /* =========================================
    CAROUSEL
@@ -2112,6 +2112,7 @@
 html,
 body,
 a,
+
 button {
   cursor: none !important;
 }
